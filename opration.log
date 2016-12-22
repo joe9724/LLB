@@ -1,3 +1,115 @@
 2016/12/11 15:26:04 [I] [asm_amd64.s:2086] http server Running on http://:8080
 2016/12/11 15:27:09 [I] [router.go:787] 查看任务配置 任务编号:90861593 计划ip/天:12 当前状态:停止中  任务URL:http://www.163.com refer来源:http://www.163.com 开始时间:1970-01-01 08:00:00 AM 结束时间:一直优化
 2016/12/11 15:53:44 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 19:43:45 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 20:33:45 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 20:41:05 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 20:41:33 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 20:57:16 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 21:47:16 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 21:54:00 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 21:54:19 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 21:56:15 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 21:57:57 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 22:00:17 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 22:00:54 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 22:01:26 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 22:04:37 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 22:04:44 [C] [asm_amd64.s:479] the request url is  /addnews
+2016/12/22 22:04:44 [C] [asm_amd64.s:479] Handler crashed with error can't find templatefile in the path:addnewscontroller/post.tpl
+2016/12/22 22:04:44 [C] [asm_amd64.s:479] C:/Go/src/runtime/asm_amd64.s:479
+2016/12/22 22:04:44 [C] [asm_amd64.s:479] C:/Go/src/runtime/panic.go:458
+2016/12/22 22:04:44 [C] [asm_amd64.s:479] G:/GoStudy/src/github.com/astaxie/beego/template.go:64
+2016/12/22 22:04:44 [C] [asm_amd64.s:479] G:/GoStudy/src/github.com/astaxie/beego/controller.go:249
+2016/12/22 22:04:44 [C] [asm_amd64.s:479] G:/GoStudy/src/github.com/astaxie/beego/controller.go:200
+2016/12/22 22:04:44 [C] [asm_amd64.s:479] G:/GoStudy/src/github.com/astaxie/beego/controller.go:184
+2016/12/22 22:04:44 [C] [asm_amd64.s:479] G:/GoStudy/src/github.com/astaxie/beego/router.go:809
+2016/12/22 22:04:44 [C] [asm_amd64.s:479] C:/Go/src/net/http/server.go:2202
+2016/12/22 22:04:44 [C] [asm_amd64.s:479] C:/Go/src/net/http/server.go:1579
+2016/12/22 22:04:44 [C] [asm_amd64.s:479] C:/Go/src/runtime/asm_amd64.s:2086
+2016/12/22 22:04:51 [C] [asm_amd64.s:479] the request url is  /addnews
+2016/12/22 22:04:51 [C] [asm_amd64.s:479] Handler crashed with error can't find templatefile in the path:addnewscontroller/post.tpl
+2016/12/22 22:04:51 [C] [asm_amd64.s:479] C:/Go/src/runtime/asm_amd64.s:479
+2016/12/22 22:04:51 [C] [asm_amd64.s:479] C:/Go/src/runtime/panic.go:458
+2016/12/22 22:04:51 [C] [asm_amd64.s:479] G:/GoStudy/src/github.com/astaxie/beego/template.go:64
+2016/12/22 22:04:51 [C] [asm_amd64.s:479] G:/GoStudy/src/github.com/astaxie/beego/controller.go:249
+2016/12/22 22:04:51 [C] [asm_amd64.s:479] G:/GoStudy/src/github.com/astaxie/beego/controller.go:200
+2016/12/22 22:04:51 [C] [asm_amd64.s:479] G:/GoStudy/src/github.com/astaxie/beego/controller.go:184
+2016/12/22 22:04:51 [C] [asm_amd64.s:479] G:/GoStudy/src/github.com/astaxie/beego/router.go:809
+2016/12/22 22:04:51 [C] [asm_amd64.s:479] C:/Go/src/net/http/server.go:2202
+2016/12/22 22:04:51 [C] [asm_amd64.s:479] C:/Go/src/net/http/server.go:1579
+2016/12/22 22:04:51 [C] [asm_amd64.s:479] C:/Go/src/runtime/asm_amd64.s:2086
+2016/12/22 22:06:21 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 22:24:05 [D] [controller.go:247] parse template err: addnews.html template: addnews.html:41: unexpected "{" in command
+2016/12/22 22:38:30 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 22:38:36 [D] [controller.go:249] template Execute err: template: addnews.html:21:16: executing "addnews.html" at <.page>: invalid value; expected string
+2016/12/22 22:38:36 [E] [server.go:2202] template: addnews.html:21:16: executing "addnews.html" at <.page>: invalid value; expected string
+2016/12/22 22:38:40 [D] [controller.go:249] template Execute err: template: addnews.html:21:16: executing "addnews.html" at <.page>: invalid value; expected string
+2016/12/22 22:38:40 [E] [server.go:2202] template: addnews.html:21:16: executing "addnews.html" at <.page>: invalid value; expected string
+2016/12/22 22:39:15 [D] [controller.go:249] template Execute err: template: addnews.html:21:20: executing "addnews.html" at <.page>: invalid value; expected string
+2016/12/22 22:39:51 [E] [server.go:2202] template: addnews.html:21:20: executing "addnews.html" at <.page>: invalid value; expected string
+2016/12/22 22:39:51 [D] [controller.go:249] template Execute err: template: addnews.html:21:20: executing "addnews.html" at <.page>: invalid value; expected string
+2016/12/22 22:39:51 [E] [server.go:2202] template: addnews.html:21:20: executing "addnews.html" at <.page>: invalid value; expected string
+2016/12/22 22:39:51 [D] [controller.go:249] template Execute err: template: addnews.html:21:20: executing "addnews.html" at <.page>: invalid value; expected string
+2016/12/22 22:39:51 [E] [server.go:2202] template: addnews.html:21:20: executing "addnews.html" at <.page>: invalid value; expected string
+2016/12/22 22:39:51 [D] [controller.go:249] template Execute err: template: addnews.html:21:20: executing "addnews.html" at <.page>: invalid value; expected string
+2016/12/22 22:39:51 [E] [server.go:2202] template: addnews.html:21:20: executing "addnews.html" at <.page>: invalid value; expected string
+2016/12/22 22:40:00 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 22:40:02 [D] [controller.go:249] template Execute err: template: addnews.html:21:20: executing "addnews.html" at <.page>: invalid value; expected string
+2016/12/22 22:40:02 [E] [server.go:2202] template: addnews.html:21:20: executing "addnews.html" at <.page>: invalid value; expected string
+2016/12/22 22:42:22 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 22:44:03 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 22:44:51 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 22:45:36 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 22:47:24 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 22:48:13 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 22:54:05 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 22:54:06 [C] [asm_amd64.s:479] the request url is  /addnews
+2016/12/22 22:54:06 [C] [asm_amd64.s:479] Handler crashed with error reflect: reflect.Value.SetInt using value obtained using unexported field
+2016/12/22 22:54:06 [C] [asm_amd64.s:479] C:/Go/src/runtime/asm_amd64.s:479
+2016/12/22 22:54:06 [C] [asm_amd64.s:479] C:/Go/src/runtime/panic.go:458
+2016/12/22 22:54:06 [C] [asm_amd64.s:479] C:/Go/src/reflect/value.go:225
+2016/12/22 22:54:06 [C] [asm_amd64.s:479] C:/Go/src/reflect/value.go:1402
+2016/12/22 22:54:06 [C] [asm_amd64.s:479] G:/GoStudy/src/github.com/astaxie/beego/orm/orm_raw.go:118
+2016/12/22 22:54:06 [C] [asm_amd64.s:479] G:/GoStudy/src/github.com/astaxie/beego/orm/orm_raw.go:506
+2016/12/22 22:54:06 [C] [asm_amd64.s:479] G:/GoStudy/src/LLB/controllers/addnews.go:35
+2016/12/22 22:54:06 [C] [asm_amd64.s:479] G:/GoStudy/src/github.com/astaxie/beego/router.go:785
+2016/12/22 22:54:06 [C] [asm_amd64.s:479] C:/Go/src/net/http/server.go:2202
+2016/12/22 22:54:06 [C] [asm_amd64.s:479] C:/Go/src/net/http/server.go:1579
+2016/12/22 22:54:06 [C] [asm_amd64.s:479] C:/Go/src/runtime/asm_amd64.s:2086
+2016/12/22 22:54:50 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 23:10:42 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 23:11:35 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 23:18:10 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 23:45:40 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 23:45:58 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 23:46:46 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 23:48:13 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 23:56:13 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/22 23:56:49 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/23 00:07:43 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/23 00:13:35 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/23 00:16:46 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/23 00:18:09 [D] [hooks.go:75] parse template err: addnews.html template: addnews.html:27: function "news" not defined
+2016/12/23 00:18:09 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/23 00:18:27 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/23 00:18:30 [D] [controller.go:249] template Execute err: template: addnews.html:27:18: executing "addnews.html" at <.news>: can't evaluate field news in type int
+2016/12/23 00:18:30 [E] [server.go:2202] template: addnews.html:27:18: executing "addnews.html" at <.news>: can't evaluate field news in type int
+2016/12/23 00:18:35 [D] [controller.go:249] template Execute err: template: addnews.html:27:18: executing "addnews.html" at <.news>: can't evaluate field news in type int
+2016/12/23 00:18:35 [E] [server.go:2202] template: addnews.html:27:18: executing "addnews.html" at <.news>: can't evaluate field news in type int
+2016/12/23 00:18:35 [D] [controller.go:249] template Execute err: template: addnews.html:27:18: executing "addnews.html" at <.news>: can't evaluate field news in type int
+2016/12/23 00:18:35 [E] [server.go:2202] template: addnews.html:27:18: executing "addnews.html" at <.news>: can't evaluate field news in type int
+2016/12/23 00:18:36 [D] [controller.go:249] template Execute err: template: addnews.html:27:18: executing "addnews.html" at <.news>: can't evaluate field news in type int
+2016/12/23 00:18:36 [E] [server.go:2202] template: addnews.html:27:18: executing "addnews.html" at <.news>: can't evaluate field news in type int
+2016/12/23 00:18:37 [D] [controller.go:249] template Execute err: template: addnews.html:27:18: executing "addnews.html" at <.news>: can't evaluate field news in type int
+2016/12/23 00:18:37 [E] [server.go:2202] template: addnews.html:27:18: executing "addnews.html" at <.news>: can't evaluate field news in type int
+2016/12/23 00:18:37 [D] [controller.go:249] template Execute err: template: addnews.html:27:18: executing "addnews.html" at <.news>: can't evaluate field news in type int
+2016/12/23 00:18:37 [E] [server.go:2202] template: addnews.html:27:18: executing "addnews.html" at <.news>: can't evaluate field news in type int
+2016/12/23 00:18:37 [D] [controller.go:249] template Execute err: template: addnews.html:27:18: executing "addnews.html" at <.news>: can't evaluate field news in type int
+2016/12/23 00:18:37 [E] [server.go:2202] template: addnews.html:27:18: executing "addnews.html" at <.news>: can't evaluate field news in type int
+2016/12/23 00:19:41 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/23 00:19:43 [D] [controller.go:249] template Execute err: template: addnews.html:27:26: executing "addnews.html" at <.news.Title>: can't evaluate field news in type int
+2016/12/23 00:19:43 [E] [server.go:2202] template: addnews.html:27:26: executing "addnews.html" at <.news.Title>: can't evaluate field news in type int
+2016/12/23 00:22:45 [I] [asm_amd64.s:2086] http server Running on http://:9090
+2016/12/23 00:22:47 [D] [controller.go:249] template Execute err: template: addnews.html:27:21: executing "addnews.html" at <.Title>: can't evaluate field Title in type int
+2016/12/23 00:22:47 [E] [server.go:2202] template: addnews.html:27:21: executing "addnews.html" at <.Title>: can't evaluate field Title in type int

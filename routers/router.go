@@ -11,5 +11,6 @@ func init() {
 	beego.Router("/query",&controllers.QueryController{})
 	beego.Router("/newtask",&controllers.NewTaskController{})
 	beego.Router("/starttask",&controllers.StartTaskController{})
+	beego.Router("/addnews",&controllers.AddNewsController{})
 
 }

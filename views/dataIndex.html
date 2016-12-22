@@ -14,7 +14,7 @@
         输入任务编号<input type="text" name="taskid"/>(必填)
         <br/>
         选择操作<select class="form-control input-sm" name="category" id="category" style="width: 120px;">
-            {{range .Cates}}
+            {{range .news}}
             <option value={{.Id}} {{if .IsSelected}} select="selected"{{end}}>{{.Value}}</option>
 
             {{end}}
