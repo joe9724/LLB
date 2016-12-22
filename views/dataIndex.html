@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+登录成功
+<p></p>
+--------------------------------------------------查询,暂停,停止,删除,恢复--------------------------------------------------------------
+<p></p>
+<form action="/query" method="post">
+    <div>
+        输入任务编号<input type="text" name="taskid"/>(必填)
+        <br/>
+        选择操作<select class="form-control input-sm" name="category" id="category" style="width: 120px;">
+            {{range .Cates}}
+            <option value={{.Id}} {{if .IsSelected}} select="selected"{{end}}>{{.Value}}</option>
+
+            {{end}}
+        </select>
+        (必填)
+
+        <br/>
+        <input type="submit" value=" GO ">
+
+    </div>
+    {{.Website}}
+
+    <p></p>
+    ---------------------------------------------------新建移动任务----------------------------------------------------------
+    <p></p>
+
+</form>
+    <div>
+        <form action="/newtask" method="post">
+<br/>
+        任务名称<input type="text" name="name">(必填)
+            <br/>
+            任务URL<input type="text" name="url">(必填)
+            <br/>
+            referer来源<input type="text" name="source">(必填)
+<br/>
+            预设量 ip/天<input type="text" name="plan">(必填)
+            <br/>
+            <input type="submit" value=" GO ">
+
+        </form>
+    </div>
+{{.Website1}}
+<p></p>
+
+---------------------------------------------------启动任务----------------------------------------------------------
+<p></p>
+
+</form>
+<div>
+    <form action="/starttask" method="post">
+        <br/>
+        任务编号<input type="text" name="taskId">(必填)
+        <!--<br/>
+        开始时间<input type="text" name="starttime">-->
+        <br/>
+        结束时间<input type="text" name="endtime" > (选填)时间格式填写参考:2017-11-11 23:59:59,不填写则任务一直执行，没有结束时间
+
+        <input type="submit" value=" GO ">
+
+    </form>
+</div>
+{{.Website2}}
+<br/>
+</body>
+</html>
